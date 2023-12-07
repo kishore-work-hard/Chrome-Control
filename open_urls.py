@@ -17,7 +17,7 @@ driver = webdriver.Chrome()
 
 # Example username and password
 username = "admin"
-password = "Elvicto@123"
+password = "admin@123"
 
 for url in urls:
     url_with_protocol = "http://" + url if not url.startswith(("http://", "https://")) else url
